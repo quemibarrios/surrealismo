@@ -1,0 +1,67 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  padding: 0;
+  width: max-content;
+}
+
+  
+  .logo-anuncio {
+    max-height: 50px;
+  }
+
+  
+  .boton-anuncio {
+    background-color: black;
+    color: #dda46f;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+
+  .anuncio {
+    width: 728px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: url("../img/anuncio720x90.png");
+    background-size: cover;
+    font-weight: bold;
+  }
+
+
+ h2{
+  font-size: 16px;
+ 
+}
+
+
+  @media (max-width: 727px) {
+    .anuncio {
+      width: 300px;
+      height: 600px;
+      justify-content: space-evenly;
+      flex-direction: column;
+      background: url("../img/anuncio600x300.png");
+      background-size: cover;
+    }
+
+ h2{
+  font-size: 18px;
+ 
+}
+  .logo-anuncio {
+    max-height: 70px;
+  }
+   
+  }
+
+
